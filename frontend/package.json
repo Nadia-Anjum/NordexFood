@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "mock": "json-server --watch db/db.json --port 8000"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "aos": "^2.3.4",
+    "json-server": "^1.0.0-beta.1",
+    "nuxt-proxy": "^0.4.1",
+    "pinia": "^2.2.2",
+    "vue": "latest",
+    "nitropack": "^2.8.1",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@formkit/auto-animate": "^0.8.2",
+    "@nuxtjs/color-mode": "^3.4.2",
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "@pinia/nuxt": "^0.5.3",
+    "nuxt": "^3.13.2"
+  }
+}

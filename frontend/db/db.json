@@ -1,0 +1,169 @@
+{
+   
+    "frontpage": {
+      "name": "frontpage",
+      "createDate": "2023-06-23T11:31:07.281Z",
+      "updateDate": "2023-06-23T11:31:07.281Z",
+      "route": {
+        "path": "string",
+        "startItem": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "path": "string"
+        }
+      },
+      "id": "11fb598b-5c51-4d1a-8f2e-0c7594361d15",
+      "contentType": "string",
+      "properties": {
+        "property1Alias": "string",
+        "property2Alias": 0,
+        "property3Alias": true,
+        "property4Alias": [],
+        "property5Alias": {},
+        "property6Alias": null,
+        "components": [
+          {
+            "contentType": "hero",
+            "properties": {
+              "image": "https://picsum.photos/1050/700",
+              "headline": "This is the headline",
+              "teaser": "Teaser",
+              "link": {
+                "name": "name",
+                "url": "content-page",
+                "target": "_self"
+
+              }
+            }
+          },
+          {
+            "contentType": "rte",
+            "properties": {
+              "content": "<p>LLorem ipsum sit amet dolor</p>"
+              
+            }
+          }
+        ]
+      }
+     
+    },
+    "contentpage": {
+      "name": "frontpage",
+      "createDate": "2023-06-23T11:31:07.281Z",
+      "updateDate": "2023-06-23T11:31:07.281Z",
+      "route": {
+        "path": "string",
+        "startItem": {
+          "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "path": "string"
+        }
+      },
+      "id": "11fb598b-5c51-4d1a-8f2e-0c7594361d15",
+      "contentType": "string",
+      "properties": {
+        "property1Alias": "string",
+        "property2Alias": 0,
+        "property3Alias": true,
+        "property4Alias": [],
+        "property5Alias": {},
+        "property6Alias": null,
+        "components": [
+          {
+            "contentType": "testemonials",
+            "properties": {
+              "content":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>"
+            }
+          },
+          {
+            "contentType": "rte",
+            "properties": {
+              "content":"<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>"
+            }
+          }
+         
+        ]
+      }
+    }, 
+    "redirect":{
+      "redirect": {
+        "url": "/contentpage"
+      }
+
+    },
+    "config": {
+      "header": {
+        "links": [{
+          "url": "/frontpage",
+          "name": "frontpage",
+          "target":"_self"
+        }, {
+          "name": "contentpage",
+          "url":"contentpage"        
+        },
+        {
+          "name": "redirect",
+          "url":"redirect"        
+        } ,
+        {
+          "name": "list",
+          "url":"list"        
+        } 
+        ]
+      },
+      "footer": {
+        "blocks":[
+          {
+            "headline": "Quicklinks",
+            "links":[
+              {
+                "url": "/",
+                "name": "frontpage",
+                "target":"_self"
+              }, {
+                "name": "contentpage",
+                "url":"contentpage"        
+              } 
+            ]
+          },
+          {
+            "headline": "Quicklinks",
+            "links":[
+              {
+                "url": "/",
+                "name": "frontpage",
+                "target":"_self"
+              }, {
+                "name": "contentpage",
+                "url":"contentpage"        
+              } 
+            ]
+          },
+          {
+            "headline": "Quicklinks",
+            "links":[
+              {
+                "url": "/",
+                "name": "frontpage",
+                "target":"_self"
+              }, {
+                "name": "contentpage",
+                "url":"contentpage"        
+              } 
+            ]
+          },
+          {
+            "headline": "Quicklinks",
+            "links":[
+              {
+                "url": "/",
+                "name": "frontpage",
+                "target":"_self"
+              }, {
+                "name": "contentpage",
+                "url":"contentpage"        
+              } 
+            ]
+          }
+        ]
+      }
+    }
+  }
